@@ -11,6 +11,13 @@
         <p>Lviv, Ukraine</p>
     </header>
     <div id = "left_side_block">
+        <div class="theme-switch-wrapper">
+        <label class="theme-switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+        <span>Dark theme</span>
+    </div>
         <section>
             <h3>PROFILE</h3>
             <p>
@@ -68,5 +75,34 @@
         </ul>
         </section>
     </div>
+    <section>
+    <h3>References from previous employers</h3>
+        <div id="comments-container"></div>
+    </section>
+
+    <div id="contactModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h3>Feedback</h3>
+        <form action="https://formspree.io/f/mwvwwjwn" method = "POST">
+            <label>Name:
+            <input type = "text" name = "name" required>
+            </label>
+            <label>Email:
+            <input type = "email" name = "email" required>
+            </label>
+            <label>Telephone number:
+            <input type = "tel" name = "telephone" required>
+            </label>
+            <label> Message:
+            <textarea name = "message"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    </div>
+
+    <footer id="footer"></footer>
+    <script src = "script.js"></script>
 </body>
 </html>
