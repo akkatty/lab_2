@@ -30,13 +30,13 @@ header h1 {
     text-transform: uppercase; 
     letter-spacing: 2px;       
     margin: 0;
-    color: #333;              
+    color: #d4b8ef;              
 }
 
 #left_side_block {
     grid-row: 1 / 5; 
     grid-column: 1;      
-    background: #d4d2d2;
+    background: #d9c3ef;
     border: 0; 
     padding: 10px 10px 10px 20px;
     margin: 0px;
